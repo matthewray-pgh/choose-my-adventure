@@ -1,22 +1,15 @@
-import logo from './assets/logo.svg';
-import './App.scss';
+import './styles/App.scss';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Choose my own adventure game
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-        >
-          Enter if you dare
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
