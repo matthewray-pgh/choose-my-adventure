@@ -1,15 +1,15 @@
 import './styles/App.scss';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { MemoryRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <MemoryRouter>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-    </BrowserRouter>
+    </MemoryRouter>
   );
 }
 
