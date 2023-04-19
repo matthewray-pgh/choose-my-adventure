@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$color-text: #b8f8bf;
+$font-size: 1.5rem;
+$font-family: 'VT323', monospace;
+
+.story {
+  &__page {
+    height: 100vh;
+    padding: 50px 100px 50px 100px;
+
+    background-color: black;
+    color: $color-text;
+
+    font-size: $font-size;
+    font-family: $font-family;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__container {
+    padding: 10px;
+  }
+
+  &__chapter {
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  &__options {
+    &--revealed {
+        opacity: 1;
+        transition: opacity 2.5s ease;
+      }
+    
+      &--hidden {
+        opacity: 0;
+      }
+  }
+
+  &__button {
+    width: 100%;
+    background-color: #000000;
+    border: solid 3px #ffffff;
+    color: $color-text;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: $font-size;
+    font-family: $font-family;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    &:active {
+      background-color: #ffffff;
+      color: #000000;
+      transform: translateY(3px);
+    }
+  }
+
+  &__char {
+    &--revealed {
+      opacity: 1;
+    }
+    &--hidden {
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+  }
+}

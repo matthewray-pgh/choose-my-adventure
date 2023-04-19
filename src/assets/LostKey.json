@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "content": "You're standing in front of an old mansion, a key in your hand. You're not sure how you got here or why you have the key, but something tells you that it's important. What do you do?",
+    "options": [
+      {
+        "index": 1,
+        "content": "Open the door and go inside"
+      },
+      {
+        "index": 2,
+        "content": "Walk away and try to forget about the key"
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "content": "You insert the key into the lock and turn it. The door creaks open, and you step inside. The mansion is dark and quiet, but you can hear a faint humming sound coming from somewhere deep within the house. You walk down a long hallway, passing by cobweb-covered portraits and dusty suits of armor. As you approach the end of the hallway, you notice a staircase leading up to the second floor.",
+    "options": [
+      {
+        "index": 3,
+        "content": "Go up the staircase"
+      },
+      {
+        "index": 4,
+        "content": "Keep walking down the hallway"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "content": "Wrong choice!",
+    "options": [
+      {
+        "index": 0,
+        "content": "Play again"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "content": "You climb the stairs, your heart pounding in your chest. As you reach the top, you see a door on your left. You approach the door and try to turn the handle, but it won't budge. You notice a small keyhole, and you realize that you need another key to unlock it.",
+    "options": [
+      {
+        "index": 5,
+        "content": "Go back down the stairs and explore the first floor"
+      },
+      {
+        "index": 6,
+        "content": "Keep searching the second floor for the key"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "content": "Wrong choice!",
+    "options": [
+      {
+        "index": 0,
+        "content": "Play again"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "content": "You head back down the stairs and explore the first floor. You find yourself in a large dining room, with a long table and several chairs. You notice a glint of something shiny on one of the chairs. As you approach, you see that it's a small key.",
+    "options": [
+      {
+        "index": 7,
+        "content": "Take the key and go back up to the second floor"
+      },
+      {
+        "index": 8,
+        "content": "Keep exploring the first floor"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "content": "Wrong choice!",
+    "options": [
+      {
+        "index": 0,
+        "content": "Play again"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "content": "You take the key and head back up to the second floor. You insert the key into the keyhole and turn it. The door clicks open, and you step inside. The room is small, with a single window and a wooden chest in the corner. You approach the chest and try to open it, but it's locked. You realize that you need one more key to open it.",
+    "options": [
+      {
+        "index": 9,
+        "content": "Search the room for the final key"
+      },
+      {
+        "index": 8,
+        "content": "Give up and leave the mansion"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "content": "Wrong choice!",
+    "options": [
+      {
+        "index": 0,
+        "content": "Play again"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "content": "You search the room and find a small key hidden under a rug. You insert the key into the chest and turn it. The lid creaks open, revealing a glowing object inside. It's a crystal, pulsing with a warm golden light. As you reach for it, you feel a surge of power coursing through your body. You realize that you have unlocked a great mystery, and that the crystal is yours to keep. Congratulations! You have successfully completed your adventure and discovered the hidden treasure of the old mansion.",
+    "options": [
+      {
+        "index": 11,
+        "content": "Play again"
+      }
+    ]
+  }
+]
