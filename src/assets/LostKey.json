@@ -29,11 +29,11 @@
   },
   {
     "index": 2,
-    "content": "Wrong choice!",
+    "content": "Wow, that was quick. Wrong choice though, Game Over.",
     "options": [
       {
         "index": 0,
-        "content": "Play again"
+        "content": "Play again?"
       }
     ]
   },
@@ -53,11 +53,15 @@
   },
   {
     "index": 4,
-    "content": "Wrong choice!",
+    "content": "You continue walking down the hallway, and the humming sound grows louder and louder. You reach the end of the hallway and see a door on your left. You approach the door and try to turn the handle. It opens easily, and you step inside. The room is small, with a single window and a wooden chest in the corner. You approach the chest and try to open it, but it's locked. You realize that you need one more key to open it.",
     "options": [
       {
-        "index": 0,
-        "content": "Play again"
+        "index": 10,
+        "content": "Needs more work"
+      },
+      {
+        "index": 10,
+        "content": "Needs more work"
       }
     ]
   },
@@ -114,7 +118,7 @@
     "content": "You search the room and find a small key hidden under a rug. You insert the key into the chest and turn it. The lid creaks open, revealing a glowing object inside. It's a crystal, pulsing with a warm golden light. As you reach for it, you feel a surge of power coursing through your body. You realize that you have unlocked a great mystery, and that the crystal is yours to keep. Congratulations! You have successfully completed your adventure and discovered the hidden treasure of the old mansion.",
     "options": [
       {
-        "index": 11,
+        "index": 10,
         "content": "Play again"
       }
     ]
