@@ -39,18 +39,27 @@ export const LostKey = () => {
   return (
     <div className="story__page">
       <div className="story__title">The Lost Key</div>
+      
       <section className="story__container">
         {loading ? <p>Loading...</p> : 
         <>
           <div className="story__chapter">
             {chapterContent.map((t, i) => {
-            return (
-              <span key={i} className={`story__char${i < textRevealed ? "--revealed" : "--hidden"}`}>
-                {t}
-              </span>
-            );
-          })}
+              return (
+                <span key={i} className={`story__char${i < textRevealed ? "--revealed" : "--hidden"}`}>
+                  {t} 
+                </span>
+              );
+            })}
           </div>
+
+          {textRevealed < chapterContent.length - 1 &&
+            <button 
+              className="story__skip-button"
+              onClick={() => setTextRevealed(chapterContent.length)}
+            >{`skip >>`}</button>
+          }
+
           <div className={`story__options${displayOptions ? "--revealed" : "--hidden"}`}>
             {chapter.options.map((option) => {
               return (
@@ -59,7 +68,7 @@ export const LostKey = () => {
                     className="story__button" 
                     onClick={() => handleClickOption(option.index)}
                     disabled={!displayOptions}>
-                    {option.content}
+                    <span>{`>> `}</span>{option.content}
                   </button>
                 </div>
               );
@@ -67,6 +76,8 @@ export const LostKey = () => {
           </div>
         </>}
       </section>
+
+      
     </div>
   );
 }

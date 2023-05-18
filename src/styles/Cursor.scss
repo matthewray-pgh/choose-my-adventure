@@ -1,0 +1,26 @@
+$primary-color: #b8f8bf;
+$color-background: #000000;
+
+.cursor {
+  margin: 0;
+  padding: 0;
+
+  &__inner {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      background: $primary-color;
+    }
+    50% {
+      background: $primary-color;
+    }
+    70% {
+      background: $color-background;
+    }
+    100% {
+      background: $color-background;
+    }
+  }
+}
